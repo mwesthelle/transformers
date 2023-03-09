@@ -529,8 +529,8 @@ def get_available_reporting_integrations():
         integrations.append("comet_ml")
     if is_dagshub_available():
         integrations.append("dagshub")
-    if is_mlflow_available():
-        integrations.append("mlflow")
+    # if is_mlflow_available():
+    #     integrations.append("mlflow")
     if is_neptune_available():
         integrations.append("neptune")
     if is_tensorboard_available():
